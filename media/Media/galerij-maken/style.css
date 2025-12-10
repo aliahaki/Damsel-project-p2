@@ -5,18 +5,21 @@ body {
     color: #eee;
 }
 
+/* Header */
 header {
     background: #222;
     padding: 15px;
     text-align: center;
 }
 
+/* Nav */
 nav a {
     margin: 0 10px;
     text-decoration: none;
     color: #0af;
 }
 
+/* Hero */
 .hero {
     display: flex;
     flex-direction: column;
