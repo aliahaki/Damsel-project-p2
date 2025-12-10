@@ -29,9 +29,7 @@ if (form) {
 
 
 
-// -------------------------------
-// GALERIJ – KLIK OM TE VERGROTEN
-// -------------------------------
+// GALERIJ KLIK OM TE VERGROTEN
 
 const images = document.querySelectorAll(".gallery img");
 
