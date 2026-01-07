@@ -2,8 +2,8 @@
 <html lang="nl">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Damsel – FAQ</title>
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -12,10 +12,11 @@
   <!-- Header -->
   <header class="site-header">
     <h1 class="logo"><a href="../website-maken/index.html">Damsel</a></h1>
-    <nav class="main-nav">
-      <a href="/website-maken/website-maken/index.html">Home</a>
-      <a href="/media/Media/galerij-maken/media.html">Media</a>
-      <a href="/faq/faq.html">FAQ</a>
+    <div class="hamburger" id="hamburger">☰</div>
+    <nav id="menu" class="main-nav">
+      <a href="../website-maken/index.html">Home</a>
+      <a href="../media/Media/galerij-maken/media.html">Media</a>
+      <a href="faq.html">FAQ</a>
     </nav>
   </header>
 
@@ -48,7 +49,7 @@
       </details>
     </section>
 
-    <!-- FAQ-formulier onderaan -->
+    <!-- FAQ-formulier -->
     <section class="faq-form">
       <h2>Stel jouw vraag</h2>
       <form id="questionForm">
@@ -61,17 +62,18 @@
         <label>Jouw vraag
           <textarea id="qtext" rows="4" placeholder="Typ hier je vraag" required></textarea>
         </label>
-        <button type="submit" class="btn">Verstuur</button>
-        <p id="formMsg" class="small"></p>
+        <button type="submit">Verstuur</button>
+        <p id="formMsg"></p>
       </form>
     </section>
-  </main>
-  <!-- Footer -->
-  <footer class="site-footer">
-    <p>© 2025 Damsel Productions — Demo schoolproject</p>
-  </footer>
 
-  <script src="js/script.js"></script>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <p>© 2025 Damsel Productions — Demo schoolproject</p>
+    </footer>
+
+    <script src="./script.js"></script>
+
 </body>
 
 </html>

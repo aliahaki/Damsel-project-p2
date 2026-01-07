@@ -101,3 +101,23 @@ footer {
         display: block;
     }
 }
+
+.main-nav {
+    display: none;
+}
+
+.main-nav.open {
+    display: block;
+}
+
+/* Optioneel: voor mobiele styling */
+@media (min-width: 768px) {
+    .main-nav {
+        display: flex;
+        /* menu altijd zichtbaar op grotere schermen */
+    }
+
+    .hamburger {
+        display: none;
+    }
+}

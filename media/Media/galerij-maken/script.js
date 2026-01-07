@@ -97,11 +97,11 @@ navLinks.forEach(link => {
 });
 
 
-const hamburger = document.getElementById("hamburger");
-const menu = document.getElementById("menu");
 
-if (hamburger) {
-    hamburger.addEventListener("click", () => {
-        menu.classList.toggle("active");
-    });
-}
+
+const hamburger = document.getElementById("hamburger");
+const menu = document.querySelector("header nav"); // selecteer de nav in header
+
+hamburger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+});
